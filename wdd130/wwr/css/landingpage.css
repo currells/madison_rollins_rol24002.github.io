@@ -1,0 +1,128 @@
+/* Import fonts (optional, adjust if needed) */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Creepster&family=DynaPuff:wght@400..700&family=Kablammo&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Creepster&family=DynaPuff:wght@400..700&family=Fontdiner+Swanky&family=Kablammo&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Barrio&family=Creepster&family=DynaPuff:wght@400..700&family=Fontdiner+Swanky&family=Kablammo&display=swap');/* General styles */
+
+.fontdiner-swanky-regular {
+  font-family: "Fontdiner Swanky", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-family: Kablammo, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(71, 138, 3);
+  font-weight: bold;
+}
+
+/* Content container (prevents horizontal scroll) */
+#content {
+  overflow-x: hidden;
+}
+
+/* Header styles (adjust height as needed) */
+header {
+  height: 200px; /* Adjust height for your header */
+  background-color: rgb(239, 239, 128); /* Add a background color if desired */
+  display: flex;
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+}
+
+/* Hero section styles */
+#hero {
+  display: flex;
+  align-items: center; /* Center content vertically */
+}
+
+#hero-box, #hero-msg {
+  flex: 1; /* Make both elements take up half the width */
+}
+
+#hero-img {
+  width: 100%; /* Image takes up full width of its container */
+  border: dotted rgb(12, 27, 67) 5px;
+}
+
+#hero-msg {
+  padding: 2em; /* Add some padding for better readability */
+}
+
+/* Main content styles */
+main {
+  width: 1100px;
+  margin: 0 auto;
+}
+ul{
+  display: inline-flex;
+  flex-wrap: wrap;
+  list-style: none;
+  list-style: none;
+  width: 900px;
+  background-color: rgb(149, 192, 184);
+  line-height: 1.5em;
+  padding: 3rem;
+  border: rgb(95, 133, 35) solid 3px;
+}
+
+ul h2, ul h3 {
+  color: rgb(245, 230, 135);
+}
+
+ul p {
+  color: lightsalmon;
+  font-size: 0.8em;
+  padding-bottom: 15px;
+}
+
+/* List item styles */
+li {
+  font-family: Barrio, Arial, Helvetica, sans-serif;
+  border-radius: 2em;
+  width:80px;
+  height: 80px;
+  padding: 5px; /* Adjust padding as needed */
+  margin: 5px; /* Adjust margin as needed */
+  flex: 0 0 auto; /* Disable automatic width calculation */
+  width: 25%; /* Set width to 25% of container */
+  min-width: 150px; /* Set minimum width for responsiveness */
+  display: flex;
+  align-content: center;
+}
+
+li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li a:hover {
+  color: lightgreen;
+  text-decoration: underline;
+}
+
+li a:visited {
+  color: lightseagreen;
+}
+
+  li img{
+    width:80px;
+    height: 80px;
+    border-radius: 2em;
+  }
+  .logo{
+    width:80px;
+    border-radius: 180%;
+    background: rgba(65, 255, 81, 0.852);
+    margin: 3px;
+}
+#logo_link{
+  padding-top:5px;
+  justify-self: center;
+  align-self: center;
+} 
+h3 h4{
+  font-family: Fontdiner Swanky, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: darkgoldenrod;
+}

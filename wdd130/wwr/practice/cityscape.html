@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Practice  |City Scape| Assignment</title>
+    <style>
+        body {
+            background-color: black;
+        }
+        main{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-items: center;
+            border-radius: 170;
+            height: 550px;
+        }
+        .post{
+            margin: 0;
+            padding: 0;
+            width: 450px;
+            justify-items: center;
+        }
+            .post h2{
+                font-size: 20px;
+                text-align: center;
+                color:rgb(43, 42, 46);
+            }
+        .bot {
+            background-color: rgb(41, 41, 104);
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            justify-content: space-evenly;
+            justify-items: center;
+            align-content: center;
+            margin: 0;
+            padding: 0;
+            min-width: 450px;
+            border-width: 10px;
+            border-bottom-left-radius: 15%;
+            border-bottom-right-radius: 15%;
+        }
+            .bot h3, p{
+                color:aliceblue;
+                margin: 0;
+                padding: 1px;
+            }
+            .bot>div{
+                display: grid;
+            }
+        .post{
+            background-color:aliceblue;
+        }
+        .likes{
+            grid-column: 1/2;
+        }
+        .views{
+            grid-column: 2/3;
+        }
+        .comments{
+            grid-column: 3/4;
+        }
+        img{
+            margin: 0;
+            padding: 0;
+            width: 450px;
+            border-width: 10px;
+            border-top-left-radius: 15%;
+            border-top-right-radius: 15%;
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+    <main>
+        <img src="w09_ice_img.jpg">
+        <div class="post">
+            <h3>4 Hours Ago</h3>
+            <h1>The Cement Bridge</h1>
+            <h2>The imposing cement bridge stretched across the valley, its massive arches echoing the strength and durability of its construction. The smooth, gray surface bore the marks of time and countless vehicles, each passing vehicle adding another layer to its history. Below, the rushing river carved its path through the landscape, its waters reflecting the bridge's imposing silhouette.</h2>
+        </div>
+        <div class="bot">
+            <div class="likes">
+                <h3>2318</h3>
+                <p>likes</p>
+            </div>
+            <div class="views">
+                <h3>2<sub>M</sub></h3>
+                <p>views</p>
+            </div>
+            <div class="comments">
+                <h3>215</h3>
+                <p>comments</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,101 @@
+/* style.css */
+@import url("https://fonts.googleapis.com/css2?family=Mooli&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=family=Mooli&display=swap");
+:root {
+--primary-color: #52489c;
+--secondary-color: #59c3c3;
+--accent-color: #f45b69;
+--text-dark: #333;
+--text-light: #ebebeb;
+--primary-font: Arial, Helvetica,sans-serif;
+--secondary-font: Mooli, san-serif;
+}
+
+body {
+    font-family: Arial, Helvetica,sans-serif; 
+    margin: 0; 
+    background-color: lightgray; 
+    color: black;
+}
+
+a:link, a:visited {
+    color: var(--accent-color);
+  }
+
+header {
+    background-color: rgb(75, 50, 150); 
+    color: white;
+    padding: 1em;
+    text-align: center; 
+}
+h1{
+    font-family: 'Mooli', cursive;
+}
+
+.camera-icon {
+    font-size: 0.8em; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px; 
+    text-align: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px; 
+    max-width: 960px; 
+    margin: 0 auto;
+}
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+}
+
+footer {
+    background-color: rgb(75, 50, 150);
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Media query for smaller screens (tablets and phones) */
+@media (max-width: 768px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery {
+        grid-template-columns: 1fr; /* 1 column on very small screens */
+    }
+    nav li{
+        display: block;
+        margin: .5em auto;
+    }
+}

@@ -1,0 +1,75 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+}
+footer {
+    text-align: center;
+}
+footer img {
+    max-width: 150px;
+    height: auto;
+}
+header{
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+h1{
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+h3{
+    color: #006EB6;
+    font-size: 1em;
+}
+.in-box{
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 20px 200px;
+    border: 2px solid lightslategray;
+}
+.line {
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+}
+main{
+    line-height: 1.5;
+}
+ol {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+}
+ol label {
+    margin-bottom: 5px;
+    padding-left: -30px;
+}
+ol li {
+    margin-bottom: 10px;
+}
+
+
+
+/* Dark Theme Styles */
+body.dark {
+    background-color: #333;
+    color: white;
+}
+
+body.dark h3 {
+    color: #4285F4; /* Lighter blue for dark theme */
+}
+
+body.dark .line {
+    border-top-color: #555;
+}
+
+body.dark .in-box {
+    border-color: #555;
+}
+
+body.dark #byui-logo {
+    content: url("byui-logo_white.png"); /* Path to your white logo */
+}

@@ -1,0 +1,140 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@300..700&display=swap');
+
+p{
+font-family: var(--paragraph-font);
+color: var(--paragraph-color-on-white);
+padding: 1em;
+}
+user agent stylesheet
+p {
+display: block;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+unicode-bidi: isolate;
+}
+body {
+max-width: 960px;
+margin: 0 auto;
+padding: 4em;
+font-size: 18px;
+text-align: center;
+background-color: white;
+}
+.primary{
+    background-color: #c3bba2;
+    height: 100px;
+    width: 100px;
+    border:#141518;
+}
+.secondary{
+    background-color: #141518;
+    height: 100px;
+    width: 100px;
+}
+.A1{
+    background-color: #7290bd;
+    height: 100px;
+    width: 100px;
+}
+.A2{
+    background-color: #454B54;
+    height: 100px;
+    width: 100px;
+}
+.A3{
+  background-color: #48463a;
+  height: 100px;
+  width: 100px;
+}
+
+.teko-uniquifier> {
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+.amiri-regular {
+    font-family: "Amiri", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .amiri-bold {
+    font-family: "Amiri", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .amiri-regular-italic {
+    font-family: "Amiri", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .amiri-bold-italic {
+    font-family: "Amiri", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+h1{
+    font-family: teko, Arial, Helvetica, sans-serif;
+    color:#141518;
+}
+h2{
+    font-family:Quicksand, Times New Roman, Times, serif
+}
+header{
+    background-color:#7290bd;
+    color:#2b2923;
+    box-shadow: #475975;
+    border-style: solid;
+    border-right:#475975;
+    border-bottom: #475975;
+}
+#pfont{
+  font-family: teko, Arial, Helvetica, sans-serif;
+}
+#hfont{
+  font-family: Bebas Neue,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.colored{
+  background-color: #7290bd;
+  color: #48463a;}
+td{
+  max-height: 500px;
+  min-height: 200px;
+}
+
+a:link{
+   text-decoration: none;
+   color:#1d1f23;
+}
+a:hover{
+  text-decoration: underline;
+  color: #454B54;
+}
+a:visited{
+  color: #48463a;
+}
+.colors{
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+}
+hr{
+  border-top: 20px solid #48463a;
+}
+#navpage{
+  background-color: #c3bba2;
+  border-color: #7290bd;
+}
+td{
+  justify-content: space-between;
+  border: solid 5px #48463a;
+}
