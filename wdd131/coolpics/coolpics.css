@@ -83,6 +83,45 @@ footer {
     width: 100%;
 }
 
+.hide {
+    display: none;
+}
+
+.viewer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: grid; /* Use grid for centering */
+    place-items: center; /* Center content */
+    z-index: 10; /* Ensure it's on top */
+}
+
+.close-viewer {
+    position: absolute; /* Position the close button */
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    color: white; /* Make "X" visible */
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.viewer img {
+    max-width: 90%; /* Prevent image from being too wide */
+    max-height: 90%; /* Prevent image from being too tall */
+    object-fit: contain; /* Maintain aspect ratio */
+}
+
+
+@media (min-width: 1001px) { /* 1px greater than your JS breakpoint */
+    nav {
+        display: block; /* Or whatever display style you want */
+    }
+}
 /* Media query for smaller screens (tablets and phones) */
 @media (max-width: 768px) {
     .gallery {
