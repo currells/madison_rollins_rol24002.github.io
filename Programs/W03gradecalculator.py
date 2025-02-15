@@ -26,7 +26,7 @@ statement that prints the letter grade once.
 """
 print("Grade Calculator")
 num = float(input("Enter Grade Percent:"))
-#if statement numbet
+#if statement numbers
 if num >= 90:
     grade = "A"
 elif num >= 80:

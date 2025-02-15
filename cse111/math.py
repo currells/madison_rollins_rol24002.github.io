@@ -1,7 +1,7 @@
 """Implimenting sigma(x) = 1/1+e^-x"""
 #Importing Math
 import math
-#defining function
+"""#defining function
 def sigmoid(x):
     return 1/ (1 + math.exp(-x))
 
@@ -22,4 +22,10 @@ def kenetic_energy(m, v):
 #force?
 def gravital_foce(r, g, m, M):
     return g((m * M)/(r + math.exp(2)))
+"""
+nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+for i in nums:
+   int(max) = max(i)
+print(max)
 
+print("skunks")
