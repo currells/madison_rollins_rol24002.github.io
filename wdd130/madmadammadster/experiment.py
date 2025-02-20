@@ -1,0 +1,1 @@
+"""Using OLLAMA AND LLM to describe images and generate captions."""

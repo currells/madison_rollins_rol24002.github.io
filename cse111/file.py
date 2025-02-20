@@ -4,7 +4,7 @@
 #imports
 import csv
 import random
-from faker import faker
+#from  import faker
 from datetime import datetime, timedelta
 
 

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W07 | Credit Card Home | WDD131</title>
+    <link rel="stylesheet" href="creditcard.css">
+</head>
+<body>
+    <header>
+        <h1> Credit Card Form</h1>
+        <img
+        class="card-image"
+        src=""
+        height="55px">
+    </header>
+
+    <main>
+        <form id="credit-form" action="completed.html">
+          
+            <fieldset >
+                <div id="name-group">
+                  <label id="name-label"> ENTER YOUR NAME </label>
+                  <input id="name" type="text" placeholder="Jane Doe" required>
+                </div>
+                <div id="email-group">
+                  <label id="email-label"> ENTER YOUR EMAIL</label>
+                  <input id="email" type="text" placeholder="janedoe52@johndoe.com" required>
+                </div>
+                <div id="number-group">
+                  <label id="number-label"> ENTER YOUR AGE</label>
+                  <input id="number" type="number" min="10" max="105" placeholder="40" required>
+                </div>
+            </fieldset>
+
+          <div id="card-container">
+            <fieldset id="card-front">
+                <div id="total"> Total: $34.59 </div>
+                <div id="credit-number-group">
+                  <label id="credit-number-label"> CARD NUMBER </label>
+                  <input id="credit-number-input" type="number" placeholder="1234 5678 9101 1112" required>
+                </div>
+                <div id="card-holder-group">
+                  <label id="card-holder-label"> CARD HOLDERS </label>
+                  <input id="card-holder-input" type="text" placeholder="Jane Doe" required>
+                </div>
+                <div id="date-group">
+                  <label id="date-label"> EXPIRATION </label>
+                  <select id="date-month-select">
+                    <option value="1">01</option>
+                    <option value="2">02</option>
+                    <option value="3">03</option>
+                    <option value="4">04</option>
+                    <option value="5">05</option>
+                    <option value="6">06</option>
+                    <option value="7">07</option>
+                    <option value="8">08</option>
+                    <option value="9">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                  </select>
+                  <select id="date-year-select">
+                    <option value="2025">2025</option>
+                    <option value="2026">2026</option>
+                    <option value="2027">2027</option>
+                    <option value="2028">2028</option>
+                    <option value="2029">2029</option>
+                    <option value="2030">2030</option>
+                  </select>
+                </div>
+            </fieldset>
+
+            <feildset id="card-back">
+                <div id="bar"></div>
+                <div id="cvv-group">
+                  <label id="cvv-label"> CVV </label>
+                  <input id="cvv-input" type="number" placeholder="123" required>
+                </div>
+                <div id="zip-group">
+                  <label id="zip-label"> ZIP CODE </label>
+                  <input id="zip-input" type="number" placeholder="12345" required>
+                </div>
+            </feildset>
+          </div>
+            <button type="submit" id="submit" value="SUBMIT"></button>
+        </form>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>

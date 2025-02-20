@@ -1,0 +1,59 @@
+
+#card-front{
+  width: 500px;
+  height: 300px;
+  background-color:bisque;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 3fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+  border-radius: 10%;
+}
+    #total{
+      width: 100%;
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+    #credit-number-group{
+      width: 100%;
+      grid-column: 1/3;
+      grid-row: 2/3;
+    }
+    #credit-holder-group{
+      width: 100%;
+      grid-column: 1/3;
+      grid-row: 3/4;
+    }
+    #credit-number-group{
+      width: 100%;
+      grid-column: 3/4;
+      grid-row: 3/4;
+    }
+
+#card-back{
+  width: 500px;
+  height: 300px;
+  background-color:bisque;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 3fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+  border-radius: 10%;
+}
+    #bar{
+      width: 100%;  
+      height: 30px;
+      background-color: #333;
+    }
+    #cvv-group{
+      width: 100%;
+      grid-column: 2/3;
+      grid-row: 3/4;
+    }
+    #zip-group{
+      width: 100%;
+      grid-column: 1/2;
+      grid-row: 3/4;
+    }

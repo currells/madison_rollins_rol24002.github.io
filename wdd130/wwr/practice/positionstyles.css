@@ -82,7 +82,7 @@
 .content3 {
   display: grid;
   grid-template-columns: 40%, 40%;
-  grid-column-gap: 20%;
+  grid-column-gap: 40px;
   justify-content: center;
 }
 .red3 {
