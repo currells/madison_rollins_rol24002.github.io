@@ -9,8 +9,8 @@ res = ollama.chat(
 	messages=[
 		{
 			'role': 'user',
-			'content': """Describe this image specifically the shirt they are wearing and 
-            tell me the hexcode of the shirts color""", 
+			'content': """Describe this image with a description of the person including hairstyle, hair color, eyecolor, and clothing.
+            Include the hex code for the shirts color.""", 
 			'images': ['./babymads.jpg']
 		}
 	]
