@@ -2,7 +2,7 @@
 # enter pip3 install pydub into terminal to install playsound
 
 
-from pydub import AudioSegment
-from pydub.playback import play
-music = AudioSegment.from_mp3("./song.mp3")
-play(music)
+#from pydub import AudioSegment
+#from pydub.playback import play
+#music = AudioSegment.from_mp3("./song.mp3")
+#play(music)
