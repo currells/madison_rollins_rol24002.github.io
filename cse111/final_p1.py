@@ -1,1 +1,0 @@
-"""Using AI to describe an image."""
