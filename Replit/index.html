@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="tiledBackground">
+  <header>
+    <h1 id="title">NATIONAL PARK PHOTOS</h1>
+    <p>Share your National Park adventure with us! We would love to see the amazing wildlife and breathtaking views you
+      have encountered. Submit photos of your Nationnal Park adventure below!</p>
+  </header>
+
+  <form id="survey-form">
+    <fieldset>
+      <div id="name-group">
+        <label id="name-label"> ENTER YOUR NAME </label>
+        <input id="name" type="text" placeholder="Jane Doe" required>
+      </div>
+      <div id="email-group">
+        <label id="email-label"> ENTER YOUR EMAIL</label>
+        <input id="email" type="text" placeholder="janedoe52@johndoe.com" required>
+      </div>
+      <div id="number-group">
+        <label id="number-label"> ENTER YOUR AGE</label>
+        <input id="number" type="number" min="10" max="105" placeholder="40" required>
+      </div>
+    </fieldset>
+    <fieldset>
+      <div id="group-dropdown">
+        <label>Which National Park did you visit?</label>
+        <select id="dropdown">
+          <option value="1">Acadia</option>
+          <option value="2">American Samoa</option>
+          <option value="3">Arches</option>
+          <option value="4">Badlands</option>
+          <option value="5">Big Bend</option>
+          <option value="6">Biscayne</option>
+          <option value="7">Black Canyon of the Gunnison</option>
+          <option value="8">Bryce Canyon</option>
+          <option value="9">Cabrillo</option>
+          <option value="10">Canyonlands</option>
+          <option value="11">Capital Reef</option>
+          <option value="12">Carlsbad Cavern</option>
+          <option value="13">Channel Island</option>
+          <option value="14">Congaree</option>
+          <option value="15">Crater Lake</option>
+          <option value="16">Cuyahoga Valley</option>
+          <option value="17">Death Valley</option>
+          <option value="18">Denali</option>
+          <option value="19">Dry Tortugas</option>
+          <option value="20">Everglades</option>
+          <option value="21">Gates of the Artic</option>
+          <option value="22">Gettysburg</option>
+          <option value="23">Glacier</option>
+          <option value="24">Glacier Bay</option>
+          <option value="25">Grand Canyon</option>
+          <option value="26">Grand Teton</option>
+          <option value="27">Great Basin</option>
+          <option value="28">Great Sand Dunes</option>
+          <option value="29">Great Smoky Mountains</option>
+          <option value="30">Guadalupe Mountains</option>
+          <option value="31">Haleakala</option>
+          <option value="32">Hawai'i Volcanoes</option>
+          <option value="33">Harpers Ferry</option>
+          <option value="34">Hot Springs</option>
+          <option value="35">Isle Royale</option>
+          <option value="36">Jousua Tree</option>
+          <option value="37">Katamai</option>
+          <option value="38">Kenai Fjords</option>
+          <option value="39">Kings Canyon</option>
+          <option value="40">Kobuk Valley</option>
+          <option value="41">Lake Clark</option>
+          <option value="42">Lassen Volcanic</option>
+          <option value="43">Mammoth Cave</option>
+          <option value="44">Mesa Verde</option>
+          <option value="45">Mount Rainier</option>
+          <option value="46">North Cascades</option>
+          <option value="47">Organ Pipe Cactus</option>
+          <option value="48">Olympic</option>
+          <option value="49">Petrified Forest</option>
+          <option value="50">Pinnacles</option>
+          <option value="51">Redwood Forest</option>
+          <option value="52">Rocky Mountain</option>
+          <option value="53">Saguaro</option>
+          <option value="54">Sequoia</option>
+          <option value="55">Shenandoah</option>
+          <option value="56">Theodore Roosevelt</option>
+          <option value="57">Valley Forge</option>
+          <option value="58">Virgin Islands</option>
+          <option value="59">Voyageurs</option>
+          <option value="60">Wind Cave</option>
+          <option value="61">Wrangell-St. Elias</option>
+          <option value="62">Yellowstone</option>
+          <option value="63">Yosemite</option>
+          <option value="64">Zion</option>
+        </select>
+      </div>
+    </fieldset>
+    <fieldset>
+      <div id="group-radio">
+        <label id="satisfied">Were you satisfied with your trip?</label>
+        <label>
+          <input name="mark" type="radio">Yes
+        </label>
+        <label>
+          <input name="mark" type="radio">No
+        </label>
+      </div>
+      <div>
+        <label>Describe your visit
+          <textarea name="visit" placeholder="I loved my trip to the National Park"></textarea>
+        </label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <div id="group-checkbox">
+        <p>What is in the picture?</p>
+        <label>
+          <input value="Plants" type="checkbox">Plants
+        </label>
+        <label>
+          <input value="Animals" type="checkbox">Animals
+        </label>
+        <label>
+          <input value="People" type="checkbox">People
+        </label>
+        <label>
+          <input value="Landscape" type="checkbox">Lanscape
+        </label>
+        <label>
+          <input value="Manmade Structures" type="checkbox">Man-made Structures
+        </label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <label> Upload your photos!
+        <input name="file" type="file" multiple required>
+      </label>
+    </fieldset>
+    <fieldset>
+    <label>Aditional Comments
+          <textarea name="comments" placeholder="Tell us how we can improve out National Parks!"></textarea>
+        </label>
+    </fieldset>
+    <fieldset>
+     <input id="submit" value="SUBMIT" type="submit">
+    </fieldset>
+  </form>
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="orange" defer></script>
+</body>
+
+</html>
