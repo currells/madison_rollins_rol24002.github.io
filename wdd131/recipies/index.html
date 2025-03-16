@@ -13,23 +13,28 @@
         <h1>Recipe Book</h1>
         </div>
        
-        <div class="search-form">
-            <input type="text" placeholder="Find a recipe">
-            <button>Search</button>
-        </div>
+        <form id="search-form">
+            <input id="search-input" type="text" placeholder="Find a recipe">
+            <button id="search-button">Search</button>
+        </form>
     </header>
 
     <br>
 
     <main>
-        <div cass="recipe">
+        <div id="recipe">
 
         </div>
-        <!---
-        <div class="recipe">
+       <!--
+        <figure class="recipe">
             <img src="images/apple-crisp.jpg" alt="Apple Crisp"> 
             <div class="recipe-info">
-                <h2>Apple Crisp</h2>
+                <ul class="recipe__tags">
+                    <li>Apple</li>
+                    <li>Dessert</li>
+                    <li>Easy</li>
+                </ul>
+                <h2 class="recipe-name"><a href="#">Apple Crisp</a></h2>
                 <span class="rating" role="img" aria-label="Rating: 4 out of 5 stars">
                     <span aria-hidden="true" class="icon-star">⭐</span>
                     <span aria-hidden="true" class="icon-star">⭐</span>
@@ -37,9 +42,9 @@
                     <span aria-hidden="true" class="icon-star">⭐</span>
                     <span aria-hidden="true" class="icon-star-empty">☆</span>
                 </span>
-                <p>This apple crisp recipe is a simple yet delicious fall dessert that's great served warm with vanilla ice cream.</p>
+                <p class="recipe__description">This apple crisp recipe is a simple yet delicious fall dessert that's great served warm with vanilla ice cream.</p>
             </div>
-        </div>
+        </figure>
         -->
     </main>
 
@@ -52,8 +57,7 @@
         </div>
     </footer>
 
-    <script src="recipies.js" type="module"></script>
-    <script src="recipies.mjs" type="module"></script>
+    <script src="recipes.js" type="module"></script>
     
 </body>
 </html>
